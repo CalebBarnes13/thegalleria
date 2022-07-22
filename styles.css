@@ -216,6 +216,49 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+
+  main {
+      margin: 0 4%;
+  }
+
+  a{
+      font-size: 16px;
+  }
+
+  .nav__container{
+      height: 80px;
+      padding: 0 8%;
+  }
+
+  .logo__mask {
+      width: 80px;
+      height: 80px;
+  }
+  
+  .category{
+      width: calc(100% - 4px);
+  }
+
+  .category__name--title{
+      font-size: 16px;
+  }
+
+  h3 {
+      font-size: 20px;
+      padding: 0;
+  }
+
+  h4 {
+      font-size: 16px;
+      padding: 4px 0 24px 0;
+  }
+  
+  .footer {
+      font-size: 8px;
+  }
+}
+
 /* CONTACT */
 
 .contact__container {
